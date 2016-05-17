@@ -6,7 +6,7 @@ n_word = (word.replace(" ", "")).lower()
 for c in string.punctuation:
     n_word = n_word.replace(c, "")
 
-start_index = 0
+start_index = 0 # change here!
 end_index = -1
 pal = 0
 
